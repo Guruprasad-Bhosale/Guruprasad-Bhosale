@@ -1,0 +1,31 @@
+name: Generate contribution snake
+
+on:
+  schedule:
+    - cron: "17 18 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate SVGs
+        uses: Platane/snk@v3
+        with:
+          github_user_name: Guruprasad-Bhosale
+          outputs: |
+            dist/github-contribution-grid-snake.svg?color_snake=#8FB9B6&color_dots=#111C2D,#20334B,#365B70,#5D8B91,#D8A17E
+
+      - name: Publish generated SVG
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: output
+          force_orphan: true
