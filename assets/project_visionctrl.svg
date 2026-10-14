@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 170" width="100%" height="100%">
+  <defs>
+    <style>
+      .font-pixel {
+        font-family: 'Courier New', Courier, monospace;
+        shape-rendering: crispEdges;
+      }
+      .tag-box {
+        fill: #202C3D;
+        stroke: #35465B;
+        stroke-width: 1;
+      }
+    </style>
+  </defs>
+
+  <!-- Frame -->
+  <rect x="0" y="0" width="280" height="170" fill="#151B26" stroke="#35465B" stroke-width="1.5" rx="2" shape-rendering="crispEdges"/>
+  
+  <!-- Title bar -->
+  <rect x="1" y="1" width="278" height="24" fill="#1C2635" shape-rendering="crispEdges"/>
+  <line x1="1" y1="25" x2="279" y2="25" stroke="#35465B" stroke-width="1"/>
+  <rect x="8" y="7" width="9" height="9" fill="#4BA3A3" shape-rendering="crispEdges"/>
+  <text x="22" y="17" fill="#EAE5D9" class="font-pixel" font-size="9.5" font-weight="bold">VISIONCTRL.EXE</text>
+  <text x="238" y="17" fill="#94A3B8" class="font-pixel" font-size="8.5">_ □ ×</text>
+
+  <!-- Pixel Art Scene Banner (Touchless spatial tracking camera & targeting crosshair) -->
+  <g transform="translate(6, 28)">
+    <rect x="0" y="0" width="268" height="54" fill="#1C2635" shape-rendering="crispEdges"/>
+    <!-- Optical Lens & Reticle -->
+    <g transform="translate(42, 27)">
+      <circle cx="0" cy="0" r="16" fill="#151B26" stroke="#35465B" stroke-width="1.5"/>
+      <circle cx="0" cy="0" r="10" fill="#202C3D" stroke="#4BA3A3" stroke-width="1"/>
+      <circle cx="0" cy="0" r="4" fill="#4BA3A3"/>
+      <!-- Crosshairs -->
+      <line x1="0" y1="-20" x2="0" y2="-12" stroke="#F29E85" stroke-width="1.5"/>
+      <line x1="0" y1="12" x2="0" y2="20" stroke="#F29E85" stroke-width="1.5"/>
+      <line x1="-20" y1="0" x2="-12" y2="0" stroke="#F29E85" stroke-width="1.5"/>
+      <line x1="12" y1="0" x2="20" y2="0" stroke="#F29E85" stroke-width="1.5"/>
+    </g>
+
+    <!-- Hand Coordinate Ray -->
+    <path d="M 62 27 L 85 20" stroke="#4BA3A3" stroke-width="1.5" stroke-dasharray="2,2"/>
+    <rect x="85" y="18" width="6" height="6" fill="#F29E85"/>
+
+    <!-- Scene Tag -->
+    <text x="105" y="24" fill="#F29E85" class="font-pixel" font-size="8">SPATIAL INTERACTION</text>
+    <text x="105" y="38" fill="#EAE5D9" class="font-pixel" font-size="9" font-weight="bold">TOUCHLESS DESKTOP</text>
+  </g>
+
+  <!-- Project Info -->
+  <text x="12" y="98" fill="#EAE5D9" class="font-pixel" font-size="12" font-weight="bold">VISIONCTRL ↗</text>
+  <text x="12" y="112" fill="#94A3B8" class="font-pixel" font-size="8.5">Camera-based spatial interaction for</text>
+  <text x="12" y="124" fill="#94A3B8" class="font-pixel" font-size="8.5">desktop control using hand landmarks.</text>
+
+  <!-- Tech tags -->
+  <g transform="translate(12, 138)">
+    <rect class="tag-box" x="0" y="0" width="56" height="18"/>
+    <text x="8" y="12" fill="#4BA3A3" class="font-pixel" font-size="8.5">OpenCV</text>
+
+    <rect class="tag-box" x="62" y="0" width="70" height="18"/>
+    <text x="70" y="12" fill="#9D8EC2" class="font-pixel" font-size="8.5">MediaPipe</text>
+
+    <rect class="tag-box" x="138" y="0" width="56" height="18"/>
+    <text x="146" y="12" fill="#F29E85" class="font-pixel" font-size="8.5">Python</text>
+  </g>
+</svg>

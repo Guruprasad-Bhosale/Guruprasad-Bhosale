@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 170" width="100%" height="100%">
+  <defs>
+    <style>
+      .font-pixel {
+        font-family: 'Courier New', Courier, monospace;
+        shape-rendering: crispEdges;
+      }
+      .tag-box {
+        fill: #202C3D;
+        stroke: #35465B;
+        stroke-width: 1;
+      }
+    </style>
+  </defs>
+
+  <!-- Frame -->
+  <rect x="0" y="0" width="280" height="170" fill="#151B26" stroke="#35465B" stroke-width="1.5" rx="2" shape-rendering="crispEdges"/>
+  
+  <!-- Title bar -->
+  <rect x="1" y="1" width="278" height="24" fill="#1C2635" shape-rendering="crispEdges"/>
+  <line x1="1" y1="25" x2="279" y2="25" stroke="#35465B" stroke-width="1"/>
+  <rect x="8" y="7" width="9" height="9" fill="#4BA3A3" shape-rendering="crispEdges"/>
+  <text x="22" y="17" fill="#EAE5D9" class="font-pixel" font-size="9.5" font-weight="bold">RETRACE.EXE</text>
+  <text x="238" y="17" fill="#94A3B8" class="font-pixel" font-size="8.5">_ □ ×</text>
+
+  <!-- Pixel Art Scene Banner (Git timeline bisection + AST context recovery) -->
+  <g transform="translate(6, 28)">
+    <rect x="0" y="0" width="268" height="54" fill="#1C2635" shape-rendering="crispEdges"/>
+    <!-- Git Commit Graph -->
+    <line x1="16" y1="28" x2="84" y2="28" stroke="#35465B" stroke-width="2"/>
+    <circle cx="24" cy="28" r="3.5" fill="#4BA3A3"/>
+    <circle cx="44" cy="28" r="3.5" fill="#9D8EC2"/>
+    <circle cx="64" cy="28" r="4.5" fill="#F29E85"/>
+    <circle cx="80" cy="28" r="3.5" fill="#4BA3A3"/>
+
+    <!-- Bisect tracer arc -->
+    <path d="M 64 22 Q 54 12 44 22" fill="none" stroke="#F29E85" stroke-width="1.5" stroke-dasharray="2,2"/>
+    <!-- Diagnostic marker -->
+    <rect x="62" y="36" width="5" height="5" fill="#F29E85"/>
+
+    <!-- Scene Tag -->
+    <text x="100" y="24" fill="#4BA3A3" class="font-pixel" font-size="8">REGRESSION FINDER</text>
+    <text x="100" y="38" fill="#EAE5D9" class="font-pixel" font-size="9" font-weight="bold">CONTEXT RECOVERY</text>
+  </g>
+
+  <!-- Project Info -->
+  <text x="12" y="98" fill="#EAE5D9" class="font-pixel" font-size="12" font-weight="bold">RETRACE ↗</text>
+  <text x="12" y="112" fill="#94A3B8" class="font-pixel" font-size="8.5">Autonomous regression tracer connecting</text>
+  <text x="12" y="124" fill="#94A3B8" class="font-pixel" font-size="8.5">reproducible failures to code changes.</text>
+
+  <!-- Tech tags -->
+  <g transform="translate(12, 138)">
+    <rect class="tag-box" x="0" y="0" width="74" height="18"/>
+    <text x="7" y="12" fill="#4BA3A3" class="font-pixel" font-size="8.5">Playwright</text>
+
+    <rect class="tag-box" x="80" y="0" width="56" height="18"/>
+    <text x="88" y="12" fill="#F29E85" class="font-pixel" font-size="8.5">AST Map</text>
+
+    <rect class="tag-box" x="142" y="0" width="56" height="18"/>
+    <text x="150" y="12" fill="#9D8EC2" class="font-pixel" font-size="8.5">Python</text>
+  </g>
+</svg>

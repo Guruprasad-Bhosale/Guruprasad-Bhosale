@@ -1,60 +1,32 @@
 <div align="center">
 
-<!-- RETRO INDIE-GAME OS // HERO BANNER -->
+<!-- A. HERO WINDOW -->
 <a href="https://github.com/Guruprasad-Bhosale">
-  <img src="./assets/header.svg" alt="Guruprasad Bhosale - Pixel Art OS Header" width="100%" />
+  <img src="./assets/header.svg" width="100%" alt="Guruprasad Bhosale — Moonlit Workspace and GP-OS Header" />
 </a>
 
 <br/>
 
-<!-- SYSTEM STATUS & DEVELOPER CONSOLE -->
-<img src="./assets/about_terminal.svg" alt="About and Terminal Console" width="100%" />
+<!-- B. DEVELOPER CONSOLE (ABOUT & TERMINAL) -->
+<img src="./assets/about_terminal.svg" width="100%" alt="About and Terminal Console" />
 
 <br/>
 
-<!-- RPG TECH INVENTORY -->
-<img src="./assets/tech_inventory.svg" alt="Equipped Tech and Spellbook" width="100%" />
+<!-- C. ACTIVITY AND TELEMETRY -->
+<img src="./assets/stats_header.svg" width="100%" alt="Telemetry Section Header" />
 
 <br/>
 
-<!-- ACTIVE MISSIONS & FEATURED ARTIFACTS -->
-<img src="./assets/projects_banner.svg" alt="Featured Projects Header" width="100%" />
-
-<img src="./assets/projects_grid.svg" alt="Project Cards Matrix" width="100%" />
-
-</div>
-
-### `//` 📂 `MISSION_LOG.MD` — DIRECT REPOSITORY ACCESS
-
-| Artifact / Quest | Role & Capability | Equipped Tech | Access Link |
-| :--- | :--- | :--- | :---: |
-| **[KindDoor](https://github.com/Guruprasad-Bhosale/KindDoor)** | Real-time multimodal AI front-door assistant tailored for elderly, blind, and deaf individuals. Built for Amazon Hackathon. | `AWS` `Ring API` `Multimodal AI` | [Inspect ↗](https://github.com/Guruprasad-Bhosale/KindDoor) |
-| **[PayVia](https://github.com/Guruprasad-Bhosale/PayVia)** | Autonomous multi-agent negotiation protocol facilitating settlement agreement before PayPal transaction execution. | `Next.js` `PayPal SDK` `AI Agents` | [Inspect ↗](https://github.com/Guruprasad-Bhosale/PayVia) |
-| **[FixMyUI](https://github.com/Guruprasad-Bhosale/FixMyCode)** | AI-driven visual regression debugging platform detecting DOM breakages and recommending deterministic CSS/layout fixes. | `Next.js` `Playwright` `AST` | [Inspect ↗](https://github.com/Guruprasad-Bhosale/FixMyCode) |
-| **[RETRACE](https://github.com/Guruprasad-Bhosale/RETRACE)** | Autonomous regression tracer identifying breaking code commits and recovering previous execution context maps. | `Playwright` `AST Map` `Python` | [Inspect ↗](https://github.com/Guruprasad-Bhosale/RETRACE) |
-| **[SIGNOVA](https://github.com/Guruprasad-Bhosale/SIGNOVA)** | Real-time Indian Sign Language (ISL) to speech and text translation system leveraging spatial hand tracking. | `MediaPipe` `PyTorch` `OpenCV` | [Inspect ↗](https://github.com/Guruprasad-Bhosale/SIGNOVA) |
-| **[VISIONCTRL](https://github.com/Guruprasad-Bhosale/VISIONCTRL)** | Camera-based touchless human-computer interface enabling spatial navigation and hand-controlled desktop workflows. | `OpenCV` `Python` `MediaPipe` | [Inspect ↗](https://github.com/Guruprasad-Bhosale/VISIONCTRL) |
-
-<br/>
-
-<div align="center">
-
-<!-- LIVE TELEMETRY & GITHUB ACTIVITY -->
-<img src="./assets/stats_header.svg" alt="Telemetry Header" width="100%" />
-
-<br/>
-
-<!-- Real Live GitHub Stats & Streaks with Exact Slate Blue / Dusty Teal / Peach / Lavender Palette -->
-<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
   <tr align="center">
     <td width="50%" align="center" style="border: none;">
       <a href="https://github.com/Guruprasad-Bhosale">
-        <img src="https://github-readme-stats.vercel.app/api?username=Guruprasad-Bhosale&show_icons=true&bg_color=151b26&title_color=f29e85&text_color=eae5d9&icon_color=4ba3a3&border_color=2c3a4f&border_radius=2&hide_border=false" alt="Guruprasad's GitHub Stats" width="98%" />
+        <img src="https://github-readme-stats.vercel.app/api?username=Guruprasad-Bhosale&show_icons=true&bg_color=151B26&title_color=F29E85&text_color=EAE5D9&icon_color=4BA3A3&border_color=35465B&border_radius=2&hide_border=false" width="98%" alt="GitHub Statistics" />
       </a>
     </td>
     <td width="50%" align="center" style="border: none;">
       <a href="https://github.com/Guruprasad-Bhosale">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Guruprasad-Bhosale&layout=compact&bg_color=151b26&title_color=f29e85&text_color=eae5d9&border_color=2c3a4f&border_radius=2&hide_border=false" alt="Top Languages" width="98%" />
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Guruprasad-Bhosale&layout=compact&bg_color=151B26&title_color=F29E85&text_color=EAE5D9&border_color=35465B&border_radius=2&hide_border=false" width="98%" alt="Language Distribution" />
       </a>
     </td>
   </tr>
@@ -62,36 +34,81 @@
 
 <br/>
 
-<!-- ACTIVITY MATRIX / HEATMAP -->
-<img src="./assets/contributions_preview.svg" alt="Contribution Heatmap" width="100%" />
-
-<br/>
-
-<!-- OPTIONAL: ANIMATED CONTRIBUTION SNAKE -->
+<!-- GENUINE CONTRIBUTION SNAKE WORKFLOW OUTPUT -->
 <details>
-  <summary align="center"><code>[ ▰ TOGGLE CONTRIBUTION SNAKE ANIMATION ]</code></summary>
+  <summary align="center"><code>[ ▰ TOGGLE AUTHENTIC CONTRIBUTION SNAKE ACTIVITY ]</code></summary>
   <br/>
-  <img src="https://raw.githubusercontent.com/Guruprasad-Bhosale/Guruprasad-Bhosale/output/github-contribution-grid-snake.svg" width="100%" alt="Animated GitHub contribution snake" />
+  <p align="center"><sub>Reflects verified public commits generated daily via GitHub Actions.</sub></p>
+  <img src="https://raw.githubusercontent.com/Guruprasad-Bhosale/Guruprasad-Bhosale/output/github-contribution-grid-snake.svg" width="100%" alt="Authentic Contribution Snake" />
 </details>
 
 <br/>
 
-<!-- AMBIENT AUDIO & NETWORKING COMMS -->
-<img src="./assets/now_playing_connect.svg" alt="Now Playing and Connect" width="100%" />
+<!-- D. FEATURED PROJECTS (3x2 INVENTORY GRID) -->
+<img src="./assets/projects_banner.svg" width="100%" alt="Featured Projects Header" />
 
 <br/>
 
-<!-- SYSTEM TASKBAR & REPO FOOTER -->
+<table width="100%" cellspacing="0" cellpadding="4" border="0">
+  <tr>
+    <td width="33.33%" align="center" style="border: none;">
+      <a href="https://github.com/Guruprasad-Bhosale/KindDoor">
+        <img src="./assets/project_kinddoor.svg" width="100%" alt="KindDoor — Accessibility AI Front-Door Agent" />
+      </a>
+    </td>
+    <td width="33.33%" align="center" style="border: none;">
+      <a href="https://github.com/Guruprasad-Bhosale/PayVia">
+        <img src="./assets/project_payvia.svg" width="100%" alt="PayVia — Autonomous Settlement Negotiation Protocol" />
+      </a>
+    </td>
+    <td width="33.33%" align="center" style="border: none;">
+      <a href="https://github.com/Guruprasad-Bhosale/FixMyCode">
+        <img src="./assets/project_fixmyui.svg" width="100%" alt="FixMyUI — Visual Diagnosis & Repair Engine" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="33.33%" align="center" style="border: none;">
+      <a href="https://github.com/Guruprasad-Bhosale/RETRACE">
+        <img src="./assets/project_retrace.svg" width="100%" alt="RETRACE — Autonomous Regression Tracer" />
+      </a>
+    </td>
+    <td width="33.33%" align="center" style="border: none;">
+      <a href="https://github.com/Guruprasad-Bhosale/SIGNOVA">
+        <img src="./assets/project_signova.svg" width="100%" alt="SIGNOVA — ISL Gesture Translation Engine" />
+      </a>
+    </td>
+    <td width="33.33%" align="center" style="border: none;">
+      <a href="https://github.com/Guruprasad-Bhosale/VISIONCTRL">
+        <img src="./assets/project_visionctrl.svg" width="100%" alt="VISIONCTRL — Spatial Interaction Framework" />
+      </a>
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+<!-- E. TECHNICAL INVENTORY -->
+<img src="./assets/tech_inventory.svg" width="100%" alt="Equipped Tech and Runtimes Inventory" />
+
+<br/>
+
+<!-- F. FOOTER & COMMUNICATIONS -->
+<sub>
+  <a href="https://github.com/Guruprasad-Bhosale">GITHUB</a> &nbsp; / &nbsp;
+  <a href="https://www.linkedin.com/in/guruprasad-bhosale/">LINKEDIN</a> &nbsp; / &nbsp;
+  <a href="https://github.com/Guruprasad-Bhosale?tab=repositories">REPOSITORIES</a> &nbsp; / &nbsp;
+  <a href="mailto:guruprasadbhosale404@gmail.com">EMAIL</a>
+</sub>
+
+<br/><br/>
+
 <a href="https://github.com/Guruprasad-Bhosale/Guruprasad-Bhosale">
-  <img src="./assets/taskbar.svg" alt="Retro System Taskbar" width="100%" />
+  <img src="./assets/taskbar.svg" width="100%" alt="GP-OS Desktop Taskbar" />
 </a>
 
 <br/>
 
-```
-[ QUICK-SAVE: PRESS ★ ON THIS REPO TO SYNC CHECKPOINT ]
-```
-
-<sub>Crafted with custom pixel typography, SVG vector rendering, and clean retro OS architecture.</sub>
+<sub>GP-OS v2.4 // Built with deliberate pixel clusters, crisp typography &amp; authentic telemetry</sub>
 
 </div>

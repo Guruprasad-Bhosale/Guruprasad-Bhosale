@@ -20,7 +20,7 @@ jobs:
         with:
           github_user_name: Guruprasad-Bhosale
           outputs: |
-            dist/github-contribution-grid-snake.svg?color_snake=#8FB9B6&color_dots=#111C2D,#20334B,#365B70,#5D8B91,#D8A17E
+            dist/github-contribution-grid-snake.svg?color_snake=#4BA3A3&color_dots=#151B26,#1C2635,#202C3D,#4BA3A3,#F29E85
 
       - name: Publish generated SVG
         uses: peaceiris/actions-gh-pages@v4

@@ -1,9 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 270" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 250" width="100%" height="100%">
   <defs>
     <style>
       .font-pixel {
         font-family: 'Courier New', Courier, monospace;
-        font-weight: 600;
         shape-rendering: crispEdges;
       }
       @keyframes blink {
@@ -11,151 +10,102 @@
         50%, 100% { opacity: 0; }
       }
       .cursor { animation: blink 1s infinite; }
-      .text-teal { fill: #4ba3a3; }
-      .text-peach { fill: #f29e85; }
-      .text-cream { fill: #eae5d9; }
-      .text-lavender { fill: #9d8ec2; }
-      .text-muted { fill: #8795a8; }
+      .text-teal { fill: #4BA3A3; }
+      .text-peach { fill: #F29E85; }
+      .text-cream { fill: #EAE5D9; }
+      .text-lavender { fill: #9D8EC2; }
+      .text-muted { fill: #94A3B8; }
     </style>
   </defs>
 
-  <!-- WINDOW 1: STATUS.SYS (Left, Width 220) -->
+  <!-- WINDOW 1: ABOUT.MD (Left, Width 432) -->
   <g transform="translate(0, 0)">
-    <!-- Shadow & Box -->
-    <rect x="2" y="2" width="220" height="264" fill="#0b0e14" rx="2" shape-rendering="crispEdges"/>
-    <rect x="0" y="0" width="220" height="264" fill="#151b26" stroke="#2c3a4f" stroke-width="2" rx="2" shape-rendering="crispEdges"/>
+    <rect x="0" y="0" width="432" height="250" fill="#151B26" stroke="#35465B" stroke-width="2" rx="2" shape-rendering="crispEdges"/>
     
     <!-- Title bar -->
-    <rect x="2" y="2" width="216" height="24" fill="#1c2536" shape-rendering="crispEdges"/>
-    <line x1="2" y1="26" x2="218" y2="26" stroke="#2c3a4f" stroke-width="1.5"/>
-    <rect x="8" y="7" width="10" height="10" fill="#f29e85" shape-rendering="crispEdges"/>
-    <text x="24" y="18" fill="#eae5d9" class="font-pixel" font-size="10" font-weight="bold">STATUS.EXE</text>
-    <!-- Window controls -->
-    <text x="185" y="17" fill="#8795a8" class="font-pixel" font-size="9">_ □ ×</text>
+    <rect x="1" y="1" width="430" height="26" fill="#1C2635" shape-rendering="crispEdges"/>
+    <line x1="1" y1="27" x2="431" y2="27" stroke="#35465B" stroke-width="1.5"/>
+    <rect x="12" y="8" width="10" height="10" fill="#9D8EC2" shape-rendering="crispEdges"/>
+    <text x="28" y="18" fill="#EAE5D9" class="font-pixel" font-size="10.5" font-weight="bold">ABOUT.MD // PERSONAL PROFILE</text>
+    <text x="395" y="18" fill="#94A3B8" class="font-pixel" font-size="9">_ □ ×</text>
 
-    <!-- Content Items -->
-    <g transform="translate(14, 42)">
-      <!-- Item 1: Building -->
-      <circle cx="6" cy="6" r="4" fill="#4ba3a3"/>
-      <text x="18" y="9" class="font-pixel text-cream" font-size="10.5">Building</text>
-      <text x="140" y="9" class="font-pixel text-teal" font-size="9.5">[ACTV]</text>
-
-      <!-- Item 2: Learning -->
-      <circle cx="6" cy="30" r="4" fill="#9d8ec2"/>
-      <text x="18" y="33" class="font-pixel text-cream" font-size="10.5">Learning</text>
-      <text x="140" y="33" class="font-pixel text-lavender" font-size="9.5">[LVL+]</text>
-
-      <!-- Item 3: Exploring -->
-      <circle cx="6" cy="54" r="4" fill="#f29e85"/>
-      <text x="18" y="57" class="font-pixel text-cream" font-size="10.5">Exploring</text>
-      <text x="140" y="57" class="font-pixel text-peach" font-size="9.5">[CV/AI]</text>
-
-      <!-- Item 4: Overthinking -->
-      <circle cx="6" cy="78" r="4" fill="#d49c6a"/>
-      <text x="18" y="81" class="font-pixel text-cream" font-size="10.5">Overthinking</text>
-      <text x="140" y="81" class="font-pixel text-muted" font-size="9.5">[INF]</text>
-
-      <!-- Item 5: Riding -->
-      <circle cx="6" cy="102" r="4" fill="#6ba292"/>
-      <text x="18" y="105" class="font-pixel text-cream" font-size="10.5">Riding</text>
-      <text x="140" y="105" class="font-pixel text-teal" font-size="9.5">[HWY]</text>
-
-      <!-- Item 6: Touching Grass -->
-      <circle cx="6" cy="126" r="4" fill="#488b8f"/>
-      <text x="18" y="129" class="font-pixel text-cream" font-size="10.5">Outdoors</text>
-      <text x="140" y="129" class="font-pixel text-teal" font-size="9.5">[WIP]</text>
-
-      <!-- Divider -->
-      <line x1="0" y1="148" x2="190" y2="148" stroke="#253144" stroke-width="1"/>
-
-      <!-- RPG Stats Gauge -->
-      <text x="0" y="166" class="font-pixel text-lavender" font-size="9.5">MANA (COFFEE)</text>
-      <rect x="0" y="172" width="190" height="8" fill="#121822" stroke="#253144" stroke-width="1"/>
-      <rect x="1" y="173" width="160" height="6" fill="#f29e85"/>
-
-      <text x="0" y="196" class="font-pixel text-teal" font-size="9.5">STAMINA (COMMITS)</text>
-      <rect x="0" y="202" width="190" height="8" fill="#121822" stroke="#253144" stroke-width="1"/>
-      <rect x="1" y="203" width="178" height="6" fill="#4ba3a3"/>
-    </g>
-  </g>
-
-  <!-- WINDOW 2: ABOUT.MD (Center, Width 300) -->
-  <g transform="translate(236, 0)">
-    <!-- Shadow & Box -->
-    <rect x="2" y="2" width="300" height="264" fill="#0b0e14" rx="2" shape-rendering="crispEdges"/>
-    <rect x="0" y="0" width="300" height="264" fill="#161c28" stroke="#2c3a4f" stroke-width="2" rx="2" shape-rendering="crispEdges"/>
-    
-    <!-- Title bar -->
-    <rect x="2" y="2" width="296" height="24" fill="#1c2536" shape-rendering="crispEdges"/>
-    <line x1="2" y1="26" x2="298" y2="26" stroke="#2c3a4f" stroke-width="1.5"/>
-    <rect x="8" y="7" width="10" height="10" fill="#9d8ec2" shape-rendering="crispEdges"/>
-    <text x="24" y="18" fill="#eae5d9" class="font-pixel" font-size="10" font-weight="bold">ABOUT.MD</text>
-    <text x="265" y="17" fill="#8795a8" class="font-pixel" font-size="9">_ □ ×</text>
-
-    <!-- Content -->
-    <g transform="translate(14, 42)">
-      <text x="0" y="10" class="font-pixel text-peach" font-size="11.5" font-weight="bold">Hey! I'm Guruprasad.</text>
+    <!-- Body content -->
+    <g transform="translate(18, 42)">
+      <text x="0" y="14" class="font-pixel text-peach" font-size="13" font-weight="bold">Hey, I'm Guruprasad.</text>
       
-      <text x="0" y="34" class="font-pixel text-cream" font-size="10" line-height="1.4">A developer building practical</text>
-      <text x="0" y="49" class="font-pixel text-cream" font-size="10">AI systems, computer vision</text>
-      <text x="0" y="64" class="font-pixel text-cream" font-size="10">projects, and full-stack tools.</text>
+      <text x="0" y="38" class="font-pixel text-muted" font-size="10">A final-year B.Tech student in AI &amp; ML. I design and</text>
+      <text x="0" y="52" class="font-pixel text-muted" font-size="10">build across practical AI systems, computer vision</text>
+      <text x="0" y="66" class="font-pixel text-muted" font-size="10">pipelines, developer tools, and full-stack software.</text>
 
-      <text x="0" y="94" class="font-pixel text-muted" font-size="10">I like turning complex ideas</text>
-      <text x="0" y="109" class="font-pixel text-muted" font-size="10">into tangible software, learning</text>
-      <text x="0" y="124" class="font-pixel text-muted" font-size="10">new systems, riding, and</text>
-      <text x="0" y="139" class="font-pixel text-muted" font-size="10">finding tricky bugs to fix.</text>
+      <text x="0" y="96" class="font-pixel text-cream" font-size="10">I care about what happens after the demo: edge</text>
+      <text x="0" y="110" class="font-pixel text-cream" font-size="10">cases, rigorous testing, resilient architectures, and</text>
+      <text x="0" y="124" class="font-pixel text-cream" font-size="10">software that genuinely solves human problems.</text>
 
-      <!-- Cozy Motto Card -->
-      <rect x="0" y="162" width="270" height="42" fill="#111620" stroke="#263448" stroke-width="1" shape-rendering="crispEdges"/>
-      <text x="12" y="180" class="font-pixel text-teal" font-size="10">// Build. Break. Learn. Repeat.</text>
-      <text x="12" y="194" class="font-pixel text-muted" font-size="8.5">Better code. Higher roads. Clearer thoughts.</text>
-    </g>
-  </g>
+      <!-- Interest tags -->
+      <g transform="translate(0, 142)">
+        <rect x="0" y="0" width="82" height="18" fill="#202C3D" stroke="#35465B" stroke-width="1" shape-rendering="crispEdges"/>
+        <text x="8" y="12" fill="#4BA3A3" class="font-pixel" font-size="8.5">AI Agents</text>
 
-  <!-- WINDOW 3: TERMINAL.SH (Right, Width 330) -->
-  <g transform="translate(550, 0)">
-    <!-- Shadow & Box -->
-    <rect x="2" y="2" width="330" height="264" fill="#0b0e14" rx="2" shape-rendering="crispEdges"/>
-    <rect x="0" y="0" width="330" height="264" fill="#121620" stroke="#2c3a4f" stroke-width="2" rx="2" shape-rendering="crispEdges"/>
-    
-    <!-- Title bar -->
-    <rect x="2" y="2" width="326" height="24" fill="#19202e" shape-rendering="crispEdges"/>
-    <line x1="2" y1="26" x2="328" y2="26" stroke="#2c3a4f" stroke-width="1.5"/>
-    <rect x="8" y="7" width="10" height="10" fill="#4ba3a3" shape-rendering="crispEdges"/>
-    <text x="24" y="18" fill="#eae5d9" class="font-pixel" font-size="10" font-weight="bold">TERMINAL.EXE</text>
-    <text x="295" y="17" fill="#8795a8" class="font-pixel" font-size="9">_ □ ×</text>
+        <rect x="90" y="0" width="86" height="18" fill="#202C3D" stroke="#35465B" stroke-width="1" shape-rendering="crispEdges"/>
+        <text x="98" y="12" fill="#F29E85" class="font-pixel" font-size="8.5">Spatial UI</text>
 
-    <!-- Terminal Prompt & Lines -->
-    <g transform="translate(14, 40)">
-      <!-- Line 1 -->
-      <text x="0" y="10" class="font-pixel text-teal" font-size="10">PS &gt; whoami</text>
-      <text x="0" y="24" class="font-pixel text-cream" font-size="10.5">Guruprasad Bhosale</text>
+        <rect x="184" y="0" width="82" height="18" fill="#202C3D" stroke="#35465B" stroke-width="1" shape-rendering="crispEdges"/>
+        <text x="192" y="12" fill="#9D8EC2" class="font-pixel" font-size="8.5">DevTools</text>
 
-      <!-- Line 2 -->
-      <text x="0" y="44" class="font-pixel text-peach" font-size="10">PS &gt; cat capabilities.txt</text>
-      <text x="8" y="58" class="font-pixel text-muted" font-size="9.5">&gt; Build AI/ML &amp; full-stack apps</text>
-      <text x="8" y="72" class="font-pixel text-muted" font-size="9.5">&gt; CV pipelines &amp; spatial UX</text>
-      <text x="8" y="86" class="font-pixel text-muted" font-size="9.5">&gt; Autonomous test &amp; debug agents</text>
-
-      <!-- Line 3 -->
-      <text x="0" y="110" class="font-pixel text-lavender" font-size="10">PS &gt; quest --current</text>
-      <text x="8" y="124" class="font-pixel text-teal" font-size="9.5">&gt; Project: KindDoor (Amazon Hackathon)</text>
-      <text x="8" y="138" class="font-pixel text-cream" font-size="9.5">&gt; Topic  : Agentic AI &amp; Systems</text>
-
-      <!-- Line 4 -->
-      <text x="0" y="162" class="font-pixel text-peach" font-size="10">PS &gt; echo $STATUS</text>
-      <g transform="translate(8, 172)">
-        <rect x="0" y="0" width="14" height="10" fill="#4ba3a3"/>
-        <rect x="18" y="0" width="14" height="10" fill="#4ba3a3"/>
-        <rect x="36" y="0" width="14" height="10" fill="#4ba3a3"/>
-        <rect x="54" y="0" width="14" height="10" fill="#2d3a4e"/>
-        <rect x="72" y="0" width="14" height="10" fill="#2d3a4e"/>
-        <text x="96" y="9" class="font-pixel text-teal" font-size="9.5">READY_TO_DEPLOY</text>
+        <rect x="274" y="0" width="120" height="18" fill="#202C3D" stroke="#35465B" stroke-width="1" shape-rendering="crispEdges"/>
+        <text x="282" y="12" fill="#4BA3A3" class="font-pixel" font-size="8.5">Systems Design</text>
       </g>
 
-      <!-- Prompt Line -->
-      <text x="0" y="202" class="font-pixel text-teal" font-size="10">PS &gt;</text>
-      <rect x="36" y="193" width="7" height="11" fill="#f29e85" class="cursor"/>
+      <!-- Bottom Motto Card -->
+      <g transform="translate(0, 172)">
+        <rect x="0" y="0" width="394" height="26" fill="#1C2635" stroke="#35465B" stroke-width="1" shape-rendering="crispEdges"/>
+        <text x="12" y="17" class="font-pixel text-teal" font-size="9.5">// Build → Test → Refine.</text>
+        <text x="175" y="17" class="font-pixel text-muted" font-size="8.5">Keep the signal, remove the noise.</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- WINDOW 2: TERMINAL.SH (Right, Width 432) -->
+  <g transform="translate(448, 0)">
+    <rect x="0" y="0" width="432" height="250" fill="#151B26" stroke="#35465B" stroke-width="2" rx="2" shape-rendering="crispEdges"/>
+    
+    <!-- Title bar -->
+    <rect x="1" y="1" width="430" height="26" fill="#1C2635" shape-rendering="crispEdges"/>
+    <line x1="1" y1="27" x2="431" y2="27" stroke="#35465B" stroke-width="1.5"/>
+    <rect x="12" y="8" width="10" height="10" fill="#4BA3A3" shape-rendering="crispEdges"/>
+    <text x="28" y="18" fill="#EAE5D9" class="font-pixel" font-size="10.5" font-weight="bold">TERMINAL.EXE // SYSTEM CONSOLE</text>
+    <text x="395" y="18" fill="#94A3B8" class="font-pixel" font-size="9">_ □ ×</text>
+
+    <!-- Terminal Content -->
+    <g transform="translate(18, 42)">
+      <!-- Line 1 -->
+      <text x="0" y="12" class="font-pixel text-teal" font-size="10">PS &gt; whoami</text>
+      <text x="0" y="27" class="font-pixel text-cream" font-size="10">Guruprasad Bhosale (Builder &amp; AIML Engineer)</text>
+
+      <!-- Line 2 -->
+      <text x="0" y="50" class="font-pixel text-peach" font-size="10">PS &gt; cat capabilities.log</text>
+      <text x="8" y="65" class="font-pixel text-muted" font-size="9.5">&gt; Multimodal agents &amp; pre-settlement protocols</text>
+      <text x="8" y="79" class="font-pixel text-muted" font-size="9.5">&gt; Hand / pose spatial tracking &amp; desktop UX</text>
+      <text x="8" y="93" class="font-pixel text-muted" font-size="9.5">&gt; Autonomous regression &amp; AST diagnostic engines</text>
+
+      <!-- Line 3 -->
+      <text x="0" y="118" class="font-pixel text-lavender" font-size="10">PS &gt; current --focus</text>
+      <text x="8" y="133" class="font-pixel text-cream" font-size="9.5">&gt; KindDoor (Amazon Hackathon accessibility agent)</text>
+      <text x="8" y="147" class="font-pixel text-muted" font-size="9.5">&gt; Agentic systems design &amp; real-time vision pipelines</text>
+
+      <!-- Line 4 -->
+      <text x="0" y="172" class="font-pixel text-teal" font-size="10">PS &gt; echo $LOOP</text>
+      <g transform="translate(8, 180)">
+        <rect x="0" y="0" width="12" height="10" fill="#4BA3A3"/>
+        <rect x="15" y="0" width="12" height="10" fill="#4BA3A3"/>
+        <rect x="30" y="0" width="12" height="10" fill="#4BA3A3"/>
+        <rect x="45" y="0" width="12" height="10" fill="#202C3D" stroke="#35465B" stroke-width="1"/>
+        <text x="65" y="9" class="font-pixel text-cream" font-size="9.5">ITERATING_ACTIVE</text>
+      </g>
+
+      <!-- Prompt Line with cursor -->
+      <text x="0" y="200" class="font-pixel text-teal" font-size="10">PS &gt;</text>
+      <rect x="32" y="191" width="7" height="11" fill="#F29E85" class="cursor"/>
     </g>
   </g>
 </svg>
