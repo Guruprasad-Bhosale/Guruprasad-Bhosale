@@ -1,0 +1,194 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 135" width="100%" height="100%">
+  <defs>
+    <style>
+      .font-pixel {
+        font-family: 'Courier New', Courier, monospace;
+        shape-rendering: crispEdges;
+      }
+    </style>
+  </defs>
+
+  <!-- Outer Window -->
+  <rect x="2" y="2" width="876" height="131" fill="#0b0e14" rx="2" shape-rendering="crispEdges"/>
+  <rect x="0" y="0" width="876" height="131" fill="#151b26" stroke="#2c3a4f" stroke-width="2" rx="2" shape-rendering="crispEdges"/>
+  
+  <!-- Title bar -->
+  <rect x="2" y="2" width="872" height="24" fill="#1c2536" shape-rendering="crispEdges"/>
+  <line x1="2" y1="26" x2="874" y2="26" stroke="#2c3a4f" stroke-width="1.5"/>
+  <rect x="10" y="7" width="10" height="10" fill="#4ba3a3" shape-rendering="crispEdges"/>
+  <text x="26" y="18" fill="#eae5d9" class="font-pixel" font-size="10" font-weight="bold">CONTRIBUTIONS.EXE // SYSTEM ACTIVITY MATRIX</text>
+  <text x="700" y="18" fill="#f29e85" class="font-pixel" font-size="9.5">740+ COMMITS &amp; PULL REQUESTS</text>
+  <text x="835" y="17" fill="#8795a8" class="font-pixel" font-size="9">_ □ ×</text>
+
+  <!-- Heatmap Matrix -->
+  <!-- 52 columns x 6 rows of pixel blocks -->
+  <g transform="translate(18, 38)">
+    <!-- Month labels -->
+    <text x="0" y="76" fill="#75869c" class="font-pixel" font-size="8.5">Nov</text>
+    <text x="70" y="76" fill="#75869c" class="font-pixel" font-size="8.5">Dec</text>
+    <text x="140" y="76" fill="#75869c" class="font-pixel" font-size="8.5">Jan</text>
+    <text x="210" y="76" fill="#75869c" class="font-pixel" font-size="8.5">Feb</text>
+    <text x="280" y="76" fill="#75869c" class="font-pixel" font-size="8.5">Mar</text>
+    <text x="350" y="76" fill="#75869c" class="font-pixel" font-size="8.5">Apr</text>
+    <text x="420" y="76" fill="#75869c" class="font-pixel" font-size="8.5">May</text>
+    <text x="490" y="76" fill="#75869c" class="font-pixel" font-size="8.5">Jun</text>
+    <text x="560" y="76" fill="#75869c" class="font-pixel" font-size="8.5">Jul</text>
+    <text x="630" y="76" fill="#75869c" class="font-pixel" font-size="8.5">Aug</text>
+    <text x="700" y="76" fill="#75869c" class="font-pixel" font-size="8.5">Sep</text>
+    <text x="770" y="76" fill="#75869c" class="font-pixel" font-size="8.5">Oct</text>
+
+    <!-- Legend right -->
+    <g transform="translate(730, -5)">
+      <text x="0" y="8" fill="#75869c" class="font-pixel" font-size="8">LESS</text>
+      <rect x="25" y="0" width="8" height="8" fill="#1b2332" stroke="#253245" stroke-width="0.5"/>
+      <rect x="36" y="0" width="8" height="8" fill="#254d55"/>
+      <rect x="47" y="0" width="8" height="8" fill="#3d8585"/>
+      <rect x="58" y="0" width="8" height="8" fill="#4ba3a3"/>
+      <rect x="69" y="0" width="8" height="8" fill="#f29e85"/>
+      <rect x="80" y="0" width="8" height="8" fill="#eae5d9"/>
+      <text x="94" y="8" fill="#75869c" class="font-pixel" font-size="8">MORE</text>
+    </g>
+
+    <!-- Pixel Activity Matrix Rows -->
+    <!-- We can generate a rhythmic pattern of activity with slate, teal, warm peach, and cream -->
+    <!-- Row 0 -->
+    <g transform="translate(0, 0)">
+      <!-- Nov -->
+      <rect x="0" y="0" width="11" height="8" fill="#1b2332"/><rect x="14" y="0" width="11" height="8" fill="#254d55"/><rect x="28" y="0" width="11" height="8" fill="#3d8585"/><rect x="42" y="0" width="11" height="8" fill="#1b2332"/>
+      <!-- Dec -->
+      <rect x="70" y="0" width="11" height="8" fill="#3d8585"/><rect x="84" y="0" width="11" height="8" fill="#4ba3a3"/><rect x="98" y="0" width="11" height="8" fill="#1b2332"/><rect x="112" y="0" width="11" height="8" fill="#254d55"/>
+      <!-- Jan -->
+      <rect x="140" y="0" width="11" height="8" fill="#4ba3a3"/><rect x="154" y="0" width="11" height="8" fill="#f29e85"/><rect x="168" y="0" width="11" height="8" fill="#4ba3a3"/><rect x="182" y="0" width="11" height="8" fill="#3d8585"/>
+      <!-- Feb -->
+      <rect x="210" y="0" width="11" height="8" fill="#1b2332"/><rect x="224" y="0" width="11" height="8" fill="#254d55"/><rect x="238" y="0" width="11" height="8" fill="#3d8585"/><rect x="252" y="0" width="11" height="8" fill="#1b2332"/>
+      <!-- Mar -->
+      <rect x="280" y="0" width="11" height="8" fill="#3d8585"/><rect x="294" y="0" width="11" height="8" fill="#4ba3a3"/><rect x="308" y="0" width="11" height="8" fill="#f29e85"/><rect x="322" y="0" width="11" height="8" fill="#eae5d9"/>
+      <!-- Apr -->
+      <rect x="350" y="0" width="11" height="8" fill="#4ba3a3"/><rect x="364" y="0" width="11" height="8" fill="#3d8585"/><rect x="378" y="0" width="11" height="8" fill="#1b2332"/><rect x="392" y="0" width="11" height="8" fill="#254d55"/>
+      <!-- May -->
+      <rect x="420" y="0" width="11" height="8" fill="#3d8585"/><rect x="434" y="0" width="11" height="8" fill="#4ba3a3"/><rect x="448" y="0" width="11" height="8" fill="#f29e85"/><rect x="462" y="0" width="11" height="8" fill="#4ba3a3"/>
+      <!-- Jun -->
+      <rect x="490" y="0" width="11" height="8" fill="#1b2332"/><rect x="504" y="0" width="11" height="8" fill="#254d55"/><rect x="518" y="0" width="11" height="8" fill="#3d8585"/><rect x="532" y="0" width="11" height="8" fill="#1b2332"/>
+      <!-- Jul -->
+      <rect x="560" y="0" width="11" height="8" fill="#3d8585"/><rect x="574" y="0" width="11" height="8" fill="#4ba3a3"/><rect x="588" y="0" width="11" height="8" fill="#f29e85"/><rect x="602" y="0" width="11" height="8" fill="#eae5d9"/>
+      <!-- Aug -->
+      <rect x="630" y="0" width="11" height="8" fill="#4ba3a3"/><rect x="644" y="0" width="11" height="8" fill="#f29e85"/><rect x="658" y="0" width="11" height="8" fill="#4ba3a3"/><rect x="672" y="0" width="11" height="8" fill="#3d8585"/>
+      <!-- Sep -->
+      <rect x="700" y="0" width="11" height="8" fill="#3d8585"/><rect x="714" y="0" width="11" height="8" fill="#4ba3a3"/><rect x="728" y="0" width="11" height="8" fill="#f29e85"/><rect x="742" y="0" width="11" height="8" fill="#eae5d9"/>
+      <!-- Oct -->
+      <rect x="770" y="0" width="11" height="8" fill="#4ba3a3"/><rect x="784" y="0" width="11" height="8" fill="#f29e85"/><rect x="798" y="0" width="11" height="8" fill="#4ba3a3"/><rect x="812" y="0" width="11" height="8" fill="#eae5d9"/>
+    </g>
+
+    <!-- Row 1 -->
+    <g transform="translate(0, 11)">
+      <!-- Nov -->
+      <rect x="0" y="0" width="11" height="8" fill="#254d55"/><rect x="14" y="0" width="11" height="8" fill="#3d8585"/><rect x="28" y="0" width="11" height="8" fill="#4ba3a3"/><rect x="42" y="0" width="11" height="8" fill="#254d55"/>
+      <!-- Dec -->
+      <rect x="70" y="0" width="11" height="8" fill="#1b2332"/><rect x="84" y="0" width="11" height="8" fill="#3d8585"/><rect x="98" y="0" width="11" height="8" fill="#4ba3a3"/><rect x="112" y="0" width="11" height="8" fill="#f29e85"/>
+      <!-- Jan -->
+      <rect x="140" y="0" width="11" height="8" fill="#3d8585"/><rect x="154" y="0" width="11" height="8" fill="#4ba3a3"/><rect x="168" y="0" width="11" height="8" fill="#f29e85"/><rect x="182" y="0" width="11" height="8" fill="#eae5d9"/>
+      <!-- Feb -->
+      <rect x="210" y="0" width="11" height="8" fill="#254d55"/><rect x="224" y="0" width="11" height="8" fill="#3d8585"/><rect x="238" y="0" width="11" height="8" fill="#1b2332"/><rect x="252" y="0" width="11" height="8" fill="#254d55"/>
+      <!-- Mar -->
+      <rect x="280" y="0" width="11" height="8" fill="#4ba3a3"/><rect x="294" y="0" width="11" height="8" fill="#f29e85"/><rect x="308" y="0" width="11" height="8" fill="#eae5d9"/><rect x="322" y="0" width="11" height="8" fill="#4ba3a3"/>
+      <!-- Apr -->
+      <rect x="350" y="0" width="11" height="8" fill="#1b2332"/><rect x="364" y="0" width="11" height="8" fill="#254d55"/><rect x="378" y="0" width="11" height="8" fill="#3d8585"/><rect x="392" y="0" width="11" height="8" fill="#4ba3a3"/>
+      <!-- May -->
+      <rect x="420" y="0" width="11" height="8" fill="#4ba3a3"/><rect x="434" y="0" width="11" height="8" fill="#f29e85"/><rect x="448" y="0" width="11" height="8" fill="#eae5d9"/><rect x="462" y="0" width="11" height="8" fill="#f29e85"/>
+      <!-- Jun -->
+      <rect x="490" y="0" width="11" height="8" fill="#254d55"/><rect x="504" y="0" width="11" height="8" fill="#3d8585"/><rect x="518" y="0" width="11" height="8" fill="#1b2332"/><rect x="532" y="0" width="11" height="8" fill="#254d55"/>
+      <!-- Jul -->
+      <rect x="560" y="0" width="11" height="8" fill="#4ba3a3"/><rect x="574" y="0" width="11" height="8" fill="#f29e85"/><rect x="588" y="0" width="11" height="8" fill="#4ba3a3"/><rect x="602" y="0" width="11" height="8" fill="#3d8585"/>
+      <!-- Aug -->
+      <rect x="630" y="0" width="11" height="8" fill="#f29e85"/><rect x="644" y="0" width="11" height="8" fill="#eae5d9"/><rect x="658" y="0" width="11" height="8" fill="#4ba3a3"/><rect x="672" y="0" width="11" height="8" fill="#4ba3a3"/>
+      <!-- Sep -->
+      <rect x="700" y="0" width="11" height="8" fill="#4ba3a3"/><rect x="714" y="0" width="11" height="8" fill="#f29e85"/><rect x="728" y="0" width="11" height="8" fill="#eae5d9"/><rect x="742" y="0" width="11" height="8" fill="#f29e85"/>
+      <!-- Oct -->
+      <rect x="770" y="0" width="11" height="8" fill="#eae5d9"/><rect x="784" y="0" width="11" height="8" fill="#f29e85"/><rect x="798" y="0" width="11" height="8" fill="#4ba3a3"/><rect x="812" y="0" width="11" height="8" fill="#4ba3a3"/>
+    </g>
+
+    <!-- Row 2 -->
+    <g transform="translate(0, 22)">
+      <!-- Nov -->
+      <rect x="0" y="0" width="11" height="8" fill="#1b2332"/><rect x="14" y="0" width="11" height="8" fill="#254d55"/><rect x="28" y="0" width="11" height="8" fill="#3d8585"/><rect x="42" y="0" width="11" height="8" fill="#4ba3a3"/>
+      <!-- Dec -->
+      <rect x="70" y="0" width="11" height="8" fill="#254d55"/><rect x="84" y="0" width="11" height="8" fill="#4ba3a3"/><rect x="98" y="0" width="11" height="8" fill="#f29e85"/><rect x="112" y="0" width="11" height="8" fill="#eae5d9"/>
+      <!-- Jan -->
+      <rect x="140" y="0" width="11" height="8" fill="#4ba3a3"/><rect x="154" y="0" width="11" height="8" fill="#3d8585"/><rect x="168" y="0" width="11" height="8" fill="#254d55"/><rect x="182" y="0" width="11" height="8" fill="#1b2332"/>
+      <!-- Feb -->
+      <rect x="210" y="0" width="11" height="8" fill="#1b2332"/><rect x="224" y="0" width="11" height="8" fill="#254d55"/><rect x="238" y="0" width="11" height="8" fill="#3d8585"/><rect x="252" y="0" width="11" height="8" fill="#4ba3a3"/>
+      <!-- Mar -->
+      <rect x="280" y="0" width="11" height="8" fill="#3d8585"/><rect x="294" y="0" width="11" height="8" fill="#4ba3a3"/><rect x="308" y="0" width="11" height="8" fill="#f29e85"/><rect x="322" y="0" width="11" height="8" fill="#4ba3a3"/>
+      <!-- Apr -->
+      <rect x="350" y="0" width="11" height="8" fill="#254d55"/><rect x="364" y="0" width="11" height="8" fill="#3d8585"/><rect x="378" y="0" width="11" height="8" fill="#4ba3a3"/><rect x="392" y="0" width="11" height="8" fill="#f29e85"/>
+      <!-- May -->
+      <rect x="420" y="0" width="11" height="8" fill="#3d8585"/><rect x="434" y="0" width="11" height="8" fill="#4ba3a3"/><rect x="448" y="0" width="11" height="8" fill="#f29e85"/><rect x="462" y="0" width="11" height="8" fill="#eae5d9"/>
+      <!-- Jun -->
+      <rect x="490" y="0" width="11" height="8" fill="#1b2332"/><rect x="504" y="0" width="11" height="8" fill="#254d55"/><rect x="518" y="0" width="11" height="8" fill="#3d8585"/><rect x="532" y="0" width="11" height="8" fill="#4ba3a3"/>
+      <!-- Jul -->
+      <rect x="560" y="0" width="11" height="8" fill="#3d8585"/><rect x="574" y="0" width="11" height="8" fill="#4ba3a3"/><rect x="588" y="0" width="11" height="8" fill="#f29e85"/><rect x="602" y="0" width="11" height="8" fill="#eae5d9"/>
+      <!-- Aug -->
+      <rect x="630" y="0" width="11" height="8" fill="#4ba3a3"/><rect x="644" y="0" width="11" height="8" fill="#f29e85"/><rect x="658" y="0" width="11" height="8" fill="#eae5d9"/><rect x="672" y="0" width="11" height="8" fill="#4ba3a3"/>
+      <!-- Sep -->
+      <rect x="700" y="0" width="11" height="8" fill="#4ba3a3"/><rect x="714" y="0" width="11" height="8" fill="#f29e85"/><rect x="728" y="0" width="11" height="8" fill="#eae5d9"/><rect x="742" y="0" width="11" height="8" fill="#4ba3a3"/>
+      <!-- Oct -->
+      <rect x="770" y="0" width="11" height="8" fill="#f29e85"/><rect x="784" y="0" width="11" height="8" fill="#eae5d9"/><rect x="798" y="0" width="11" height="8" fill="#f29e85"/><rect x="812" y="0" width="11" height="8" fill="#eae5d9"/>
+    </g>
+
+    <!-- Row 3 -->
+    <g transform="translate(0, 33)">
+      <!-- Nov -->
+      <rect x="0" y="0" width="11" height="8" fill="#254d55"/><rect x="14" y="0" width="11" height="8" fill="#3d8585"/><rect x="28" y="0" width="11" height="8" fill="#1b2332"/><rect x="42" y="0" width="11" height="8" fill="#254d55"/>
+      <!-- Dec -->
+      <rect x="70" y="0" width="11" height="8" fill="#3d8585"/><rect x="84" y="0" width="11" height="8" fill="#4ba3a3"/><rect x="98" y="0" width="11" height="8" fill="#3d8585"/><rect x="112" y="0" width="11" height="8" fill="#254d55"/>
+      <!-- Jan -->
+      <rect x="140" y="0" width="11" height="8" fill="#1b2332"/><rect x="154" y="0" width="11" height="8" fill="#254d55"/><rect x="168" y="0" width="11" height="8" fill="#3d8585"/><rect x="182" y="0" width="11" height="8" fill="#4ba3a3"/>
+      <!-- Feb -->
+      <rect x="210" y="0" width="11" height="8" fill="#3d8585"/><rect x="224" y="0" width="11" height="8" fill="#4ba3a3"/><rect x="238" y="0" width="11" height="8" fill="#f29e85"/><rect x="252" y="0" width="11" height="8" fill="#eae5d9"/>
+      <!-- Mar -->
+      <rect x="280" y="0" width="11" height="8" fill="#4ba3a3"/><rect x="294" y="0" width="11" height="8" fill="#f29e85"/><rect x="308" y="0" width="11" height="8" fill="#eae5d9"/><rect x="322" y="0" width="11" height="8" fill="#f29e85"/>
+      <!-- Apr -->
+      <rect x="350" y="0" width="11" height="8" fill="#3d8585"/><rect x="364" y="0" width="11" height="8" fill="#4ba3a3"/><rect x="378" y="0" width="11" height="8" fill="#1b2332"/><rect x="392" y="0" width="11" height="8" fill="#254d55"/>
+      <!-- May -->
+      <rect x="420" y="0" width="11" height="8" fill="#4ba3a3"/><rect x="434" y="0" width="11" height="8" fill="#f29e85"/><rect x="448" y="0" width="11" height="8" fill="#4ba3a3"/><rect x="462" y="0" width="11" height="8" fill="#3d8585"/>
+      <!-- Jun -->
+      <rect x="490" y="0" width="11" height="8" fill="#254d55"/><rect x="504" y="0" width="11" height="8" fill="#3d8585"/><rect x="518" y="0" width="11" height="8" fill="#4ba3a3"/><rect x="532" y="0" width="11" height="8" fill="#f29e85"/>
+      <!-- Jul -->
+      <rect x="560" y="0" width="11" height="8" fill="#4ba3a3"/><rect x="574" y="0" width="11" height="8" fill="#f29e85"/><rect x="588" y="0" width="11" height="8" fill="#eae5d9"/><rect x="602" y="0" width="11" height="8" fill="#f29e85"/>
+      <!-- Aug -->
+      <rect x="630" y="0" width="11" height="8" fill="#eae5d9"/><rect x="644" y="0" width="11" height="8" fill="#f29e85"/><rect x="658" y="0" width="11" height="8" fill="#4ba3a3"/><rect x="672" y="0" width="11" height="8" fill="#3d8585"/>
+      <!-- Sep -->
+      <rect x="700" y="0" width="11" height="8" fill="#3d8585"/><rect x="714" y="0" width="11" height="8" fill="#4ba3a3"/><rect x="728" y="0" width="11" height="8" fill="#f29e85"/><rect x="742" y="0" width="11" height="8" fill="#eae5d9"/>
+      <!-- Oct -->
+      <rect x="770" y="0" width="11" height="8" fill="#4ba3a3"/><rect x="784" y="0" width="11" height="8" fill="#f29e85"/><rect x="798" y="0" width="11" height="8" fill="#eae5d9"/><rect x="812" y="0" width="11" height="8" fill="#f29e85"/>
+    </g>
+
+    <!-- Row 4 -->
+    <g transform="translate(0, 44)">
+      <!-- Nov -->
+      <rect x="0" y="0" width="11" height="8" fill="#1b2332"/><rect x="14" y="0" width="11" height="8" fill="#254d55"/><rect x="28" y="0" width="11" height="8" fill="#3d8585"/><rect x="42" y="0" width="11" height="8" fill="#1b2332"/>
+      <!-- Dec -->
+      <rect x="70" y="0" width="11" height="8" fill="#254d55"/><rect x="84" y="0" width="11" height="8" fill="#3d8585"/><rect x="98" y="0" width="11" height="8" fill="#4ba3a3"/><rect x="112" y="0" width="11" height="8" fill="#f29e85"/>
+      <!-- Jan -->
+      <rect x="140" y="0" width="11" height="8" fill="#4ba3a3"/><rect x="154" y="0" width="11" height="8" fill="#f29e85"/><rect x="168" y="0" width="11" height="8" fill="#eae5d9"/><rect x="182" y="0" width="11" height="8" fill="#4ba3a3"/>
+      <!-- Feb -->
+      <rect x="210" y="0" width="11" height="8" fill="#1b2332"/><rect x="224" y="0" width="11" height="8" fill="#254d55"/><rect x="238" y="0" width="11" height="8" fill="#3d8585"/><rect x="252" y="0" width="11" height="8" fill="#1b2332"/>
+      <!-- Mar -->
+      <rect x="280" y="0" width="11" height="8" fill="#3d8585"/><rect x="294" y="0" width="11" height="8" fill="#4ba3a3"/><rect x="308" y="0" width="11" height="8" fill="#f29e85"/><rect x="322" y="0" width="11" height="8" fill="#eae5d9"/>
+      <!-- Apr -->
+      <rect x="350" y="0" width="11" height="8" fill="#4ba3a3"/><rect x="364" y="0" width="11" height="8" fill="#3d8585"/><rect x="378" y="0" width="11" height="8" fill="#254d55"/><rect x="392" y="0" width="11" height="8" fill="#1b2332"/>
+      <!-- May -->
+      <rect x="420" y="0" width="11" height="8" fill="#3d8585"/><rect x="434" y="0" width="11" height="8" fill="#4ba3a3"/><rect x="448" y="0" width="11" height="8" fill="#f29e85"/><rect x="462" y="0" width="11" height="8" fill="#4ba3a3"/>
+      <!-- Jun -->
+      <rect x="490" y="0" width="11" height="8" fill="#254d55"/><rect x="504" y="0" width="11" height="8" fill="#3d8585"/><rect x="518" y="0" width="11" height="8" fill="#4ba3a3"/><rect x="532" y="0" width="11" height="8" fill="#f29e85"/>
+      <!-- Jul -->
+      <rect x="560" y="0" width="11" height="8" fill="#4ba3a3"/><rect x="574" y="0" width="11" height="8" fill="#f29e85"/><rect x="588" y="0" width="11" height="8" fill="#eae5d9"/><rect x="602" y="0" width="11" height="8" fill="#eae5d9"/>
+      <!-- Aug -->
+      <rect x="630" y="0" width="11" height="8" fill="#f29e85"/><rect x="644" y="0" width="11" height="8" fill="#4ba3a3"/><rect x="658" y="0" width="11" height="8" fill="#3d8585"/><rect x="672" y="0" width="11" height="8" fill="#254d55"/>
+      <!-- Sep -->
+      <rect x="700" y="0" width="11" height="8" fill="#4ba3a3"/><rect x="714" y="0" width="11" height="8" fill="#f29e85"/><rect x="728" y="0" width="11" height="8" fill="#eae5d9"/><rect x="742" y="0" width="11" height="8" fill="#4ba3a3"/>
+      <!-- Oct -->
+      <rect x="770" y="0" width="11" height="8" fill="#eae5d9"/><rect x="784" y="0" width="11" height="8" fill="#f29e85"/><rect x="798" y="0" width="11" height="8" fill="#eae5d9"/><rect x="812" y="0" width="11" height="8" fill="#f29e85"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,267 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 320" width="100%" height="100%">
+  <defs>
+    <style>
+      @keyframes blink {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+      @keyframes floatCat {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-1.5px); }
+      }
+      @keyframes steamRise {
+        0% { transform: translateY(0px); opacity: 0.8; }
+        50% { transform: translateY(-4px) translateX(1px); opacity: 0.4; }
+        100% { transform: translateY(-8px) translateX(-1px); opacity: 0; }
+      }
+      @keyframes starTwinkle {
+        0%, 100% { opacity: 0.3; }
+        50% { opacity: 1; }
+      }
+      @keyframes scanline {
+        0% { transform: translateY(-100%); }
+        100% { transform: translateY(1000%); }
+      }
+      .font-pixel {
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 700;
+        shape-rendering: crispEdges;
+      }
+      .cursor {
+        animation: blink 1s infinite;
+      }
+      .cat {
+        animation: floatCat 3s ease-in-out infinite;
+      }
+      .steam-1 {
+        animation: steamRise 2s infinite ease-out;
+      }
+      .steam-2 {
+        animation: steamRise 2.4s infinite 0.6s ease-out;
+      }
+      .twinkle-1 { animation: starTwinkle 2s infinite ease-in-out; }
+      .twinkle-2 { animation: starTwinkle 3s infinite 1s ease-in-out; }
+      .twinkle-3 { animation: starTwinkle 2.5s infinite 0.5s ease-in-out; }
+    </style>
+    <!-- Pixel pattern for background grid -->
+    <pattern id="pixel-grid" width="16" height="16" patternUnits="userSpaceOnUse">
+      <rect width="16" height="16" fill="#151b26"/>
+      <path d="M 16 0 L 0 0 0 16" fill="none" stroke="#1c2534" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- Outer Window Shadow -->
+  <rect x="6" y="6" width="868" height="308" fill="#0b0e14" rx="2" shape-rendering="crispEdges"/>
+
+  <!-- Main Window Frame -->
+  <rect x="4" y="4" width="868" height="308" fill="#151b26" stroke="#2c3a4f" stroke-width="2" rx="2" shape-rendering="crispEdges"/>
+  
+  <!-- Window Title Bar -->
+  <rect x="6" y="6" width="864" height="28" fill="#1c2536" shape-rendering="crispEdges"/>
+  <line x1="6" y1="34" x2="870" y2="34" stroke="#2c3a4f" stroke-width="2"/>
+
+  <!-- Title Bar Controls -->
+  <g transform="translate(16, 14)">
+    <!-- App Icon -->
+    <rect x="0" y="0" width="12" height="12" fill="#4ba3a3" shape-rendering="crispEdges"/>
+    <rect x="3" y="3" width="6" height="6" fill="#151b26" shape-rendering="crispEdges"/>
+    <text x="18" y="10" fill="#d4dbe6" class="font-pixel" font-size="11" letter-spacing="0.5">GP-OS v2.4 // GURUPRASAD.EXE [SYSTEM: ONLINE]</text>
+  </g>
+
+  <!-- Window Buttons -->
+  <g transform="translate(805, 12)">
+    <!-- Minimize -->
+    <rect x="0" y="0" width="16" height="16" fill="#243044" stroke="#374760" stroke-width="1" shape-rendering="crispEdges"/>
+    <rect x="4" y="11" width="8" height="2" fill="#d4dbe6"/>
+    <!-- Maximize -->
+    <rect x="22" y="0" width="16" height="16" fill="#243044" stroke="#374760" stroke-width="1" shape-rendering="crispEdges"/>
+    <rect x="26" y="4" width="8" height="8" fill="none" stroke="#d4dbe6" stroke-width="1.5"/>
+    <!-- Close -->
+    <rect x="44" y="0" width="16" height="16" fill="#4f2d33" stroke="#773b45" stroke-width="1" shape-rendering="crispEdges"/>
+    <path d="M48 4 L56 12 M56 4 L48 12" stroke="#f29e85" stroke-width="1.5"/>
+  </g>
+
+  <!-- Left Content Area (Developer Identity & Specs) -->
+  <g transform="translate(26, 52)">
+    <!-- Sub-badge -->
+    <rect x="0" y="0" width="190" height="20" fill="#202a3c" stroke="#374760" stroke-width="1" shape-rendering="crispEdges"/>
+    <text x="8" y="14" fill="#9d8ec2" class="font-pixel" font-size="10" letter-spacing="1">ROLE: BUILDER &amp; RESEARCHER</text>
+
+    <!-- Main Title / Character Name -->
+    <text x="0" y="52" fill="#eae5d9" class="font-pixel" font-size="28" font-weight="900" letter-spacing="1">GURUPRASAD BHOSALE</text>
+    
+    <!-- Focus Area Tags -->
+    <g transform="translate(0, 68)">
+      <rect x="0" y="0" width="60" height="18" fill="#1b2e35" stroke="#2f575c" stroke-width="1" shape-rendering="crispEdges"/>
+      <text x="8" y="13" fill="#4ba3a3" class="font-pixel" font-size="9.5">AI / ML</text>
+
+      <rect x="68" y="0" width="88" height="18" fill="#242138" stroke="#483d6a" stroke-width="1" shape-rendering="crispEdges"/>
+      <text x="76" y="13" fill="#b3a5d0" class="font-pixel" font-size="9.5">FULL STACK</text>
+
+      <rect x="164" y="0" width="124" height="18" fill="#312629" stroke="#664645" stroke-width="1" shape-rendering="crispEdges"/>
+      <text x="172" y="13" fill="#f29e85" class="font-pixel" font-size="9.5">COMPUTER VISION</text>
+
+      <rect x="296" y="0" width="94" height="18" fill="#1c2b2b" stroke="#335956" stroke-width="1" shape-rendering="crispEdges"/>
+      <text x="304" y="13" fill="#5fb3ab" class="font-pixel" font-size="9.5">SYSTEMS DEV</text>
+    </g>
+
+    <!-- Character Stats Panel (RPG Style) -->
+    <g transform="translate(0, 102)">
+      <rect x="0" y="0" width="460" height="74" fill="#19212f" stroke="#283549" stroke-width="1" shape-rendering="crispEdges"/>
+      
+      <!-- Row 1 -->
+      <text x="12" y="20" fill="#9d8ec2" class="font-pixel" font-size="10.5">LOCATION</text>
+      <text x="95" y="20" fill="#eae5d9" class="font-pixel" font-size="10.5">: Kolhapur, India</text>
+      
+      <text x="250" y="20" fill="#9d8ec2" class="font-pixel" font-size="10.5">ACADEMICS</text>
+      <text x="335" y="20" fill="#eae5d9" class="font-pixel" font-size="10.5">: B.Tech AIML ('26)</text>
+
+      <!-- Divider -->
+      <line x1="8" y1="36" x2="452" y2="36" stroke="#222c3d" stroke-width="1"/>
+
+      <!-- Row 2 -->
+      <text x="12" y="54" fill="#4ba3a3" class="font-pixel" font-size="10.5">AFFINITY</text>
+      <text x="95" y="54" fill="#eae5d9" class="font-pixel" font-size="10.5">: Real-World AI &amp; Agentic Systems</text>
+    </g>
+
+    <!-- Bottom Dialogue Box -->
+    <g transform="translate(0, 190)">
+      <rect x="0" y="0" width="460" height="38" fill="#121721" stroke="#324156" stroke-width="1" shape-rendering="crispEdges"/>
+      <!-- Prompt symbol -->
+      <text x="12" y="24" fill="#f29e85" class="font-pixel" font-size="12">&gt;</text>
+      <text x="28" y="24" fill="#eae5d9" class="font-pixel" font-size="11.5">"Turning ideas into working systems."</text>
+      <rect x="302" y="13" width="8" height="13" fill="#4ba3a3" class="cursor"/>
+    </g>
+  </g>
+
+  <!-- Right Side: Pixel Art Scene (Cozy Indie Dev Studio) -->
+  <g transform="translate(520, 50)">
+    <!-- Scene Frame -->
+    <rect x="0" y="0" width="330" height="240" fill="#0d121a" stroke="#2d3a4e" stroke-width="2" shape-rendering="crispEdges"/>
+    
+    <!-- Window to outside (Twilight mountains & sky) -->
+    <g transform="translate(10, 10)">
+      <rect x="0" y="0" width="310" height="110" fill="#121826" shape-rendering="crispEdges"/>
+      
+      <!-- Sky Gradient Bars (Pixel dithered aesthetic) -->
+      <rect x="0" y="0" width="310" height="25" fill="#121826"/>
+      <rect x="0" y="25" width="310" height="25" fill="#182032"/>
+      <rect x="0" y="50" width="310" height="25" fill="#232a42"/>
+      <rect x="0" y="75" width="310" height="25" fill="#3b3248"/>
+      <rect x="0" y="100" width="310" height="10" fill="#583f4f"/>
+
+      <!-- Moon -->
+      <rect x="250" y="14" width="16" height="16" fill="#eae5d9" shape-rendering="crispEdges"/>
+      <rect x="252" y="12" width="12" height="20" fill="#eae5d9" shape-rendering="crispEdges"/>
+      <rect x="248" y="16" width="20" height="12" fill="#eae5d9" shape-rendering="crispEdges"/>
+      <!-- Moon crater -->
+      <rect x="254" y="16" width="3" height="3" fill="#d1ccbf"/>
+
+      <!-- Pixel Stars -->
+      <rect x="30" y="15" width="2" height="2" fill="#eae5d9" class="twinkle-1"/>
+      <rect x="75" y="32" width="2" height="2" fill="#eae5d9" class="twinkle-2"/>
+      <rect x="130" y="18" width="2" height="2" fill="#f29e85" class="twinkle-3"/>
+      <rect x="190" y="40" width="2" height="2" fill="#eae5d9" class="twinkle-1"/>
+      <rect x="220" y="22" width="2" height="2" fill="#4ba3a3" class="twinkle-2"/>
+
+      <!-- Distant Mountains -->
+      <path d="M0 110 L40 75 L90 100 L160 65 L220 95 L270 70 L310 90 L310 110 Z" fill="#1e2233" shape-rendering="crispEdges"/>
+      <path d="M50 110 L100 85 L150 105 L210 80 L280 110 Z" fill="#2a2e45" shape-rendering="crispEdges"/>
+      
+      <!-- Horizon warm light rim -->
+      <line x1="0" y1="109" x2="310" y2="109" stroke="#ea8c72" stroke-width="1" opacity="0.6"/>
+
+      <!-- Window Frame Grids -->
+      <line x1="103" y1="0" x2="103" y2="110" stroke="#10151f" stroke-width="3"/>
+      <line x1="206" y1="0" x2="206" y2="110" stroke="#10151f" stroke-width="3"/>
+      <line x1="0" y1="55" x2="310" y2="55" stroke="#10151f" stroke-width="2"/>
+    </g>
+
+    <!-- Cozy Room Interior (Lower half) -->
+    <!-- Desk Surface -->
+    <rect x="10" y="165" width="310" height="70" fill="#17202c" shape-rendering="crispEdges"/>
+    <line x1="10" y1="165" x2="320" y2="165" stroke="#32445c" stroke-width="2"/>
+
+    <!-- Desk Lamp (Left) -->
+    <path d="M 30 165 L 30 145 L 45 135" stroke="#5d6f88" stroke-width="2" fill="none"/>
+    <polygon points="40,132 55,130 50,140 38,138" fill="#f29e85" shape-rendering="crispEdges"/>
+    <!-- Lamp glow on desk -->
+    <polygon points="35,140 65,140 90,185 20,185" fill="#f29e85" opacity="0.08"/>
+
+    <!-- Dual Monitors (Center) -->
+    <!-- Main Monitor (Center-Left) -->
+    <rect x="85" y="120" width="85" height="52" fill="#0b0e14" stroke="#384961" stroke-width="2" shape-rendering="crispEdges"/>
+    <rect x="88" y="123" width="79" height="44" fill="#0f1722" shape-rendering="crispEdges"/>
+    <rect x="122" y="172" width="12" height="8" fill="#273447" shape-rendering="crispEdges"/>
+    <rect x="115" y="178" width="26" height="3" fill="#384961" shape-rendering="crispEdges"/>
+    <!-- Code on main monitor -->
+    <line x1="92" y1="129" x2="115" y2="129" stroke="#4ba3a3" stroke-width="2"/>
+    <line x1="92" y1="134" x2="135" y2="134" stroke="#eae5d9" stroke-width="1.5"/>
+    <line x1="97" y1="139" x2="145" y2="139" stroke="#9d8ec2" stroke-width="1.5"/>
+    <line x1="97" y1="144" x2="125" y2="144" stroke="#f29e85" stroke-width="1.5"/>
+    <line x1="92" y1="149" x2="108" y2="149" stroke="#4ba3a3" stroke-width="2"/>
+    <line x1="92" y1="156" x2="150" y2="156" stroke="#4ba3a3" stroke-width="1.5"/>
+
+    <!-- Secondary Vertical Monitor (Center-Right) -->
+    <rect x="180" y="112" width="45" height="60" fill="#0b0e14" stroke="#384961" stroke-width="2" shape-rendering="crispEdges"/>
+    <rect x="183" y="115" width="39" height="52" fill="#0f1722" shape-rendering="crispEdges"/>
+    <rect x="198" y="172" width="10" height="8" fill="#273447" shape-rendering="crispEdges"/>
+    <rect x="192" y="178" width="22" height="3" fill="#384961" shape-rendering="crispEdges"/>
+    <!-- Terminal logs on vertical monitor -->
+    <line x1="187" y1="120" x2="205" y2="120" stroke="#f29e85" stroke-width="1.5"/>
+    <line x1="187" y1="125" x2="218" y2="125" stroke="#4ba3a3" stroke-width="1.5"/>
+    <line x1="187" y1="130" x2="212" y2="130" stroke="#eae5d9" stroke-width="1.5"/>
+    <line x1="187" y1="135" x2="216" y2="135" stroke="#eae5d9" stroke-width="1.5"/>
+    <line x1="187" y1="140" x2="200" y2="140" stroke="#9d8ec2" stroke-width="1.5"/>
+    <line x1="187" y1="145" x2="215" y2="145" stroke="#4ba3a3" stroke-width="1.5"/>
+
+    <!-- Keyboard & Mouse -->
+    <rect x="100" y="186" width="60" height="12" fill="#1e2736" stroke="#303e54" stroke-width="1" shape-rendering="crispEdges"/>
+    <!-- Key rows -->
+    <line x1="103" y1="189" x2="157" y2="189" stroke="#4a5d78" stroke-dasharray="2,2"/>
+    <line x1="103" y1="193" x2="157" y2="193" stroke="#4a5d78" stroke-dasharray="2,2"/>
+    <!-- Mouse & mousepad -->
+    <rect x="170" y="185" width="32" height="15" fill="#131a24" shape-rendering="crispEdges"/>
+    <rect x="180" y="188" width="8" height="10" fill="#384961" rx="1"/>
+
+    <!-- Steaming Coffee Mug -->
+    <g transform="translate(68, 178)">
+      <rect x="0" y="4" width="12" height="14" fill="#d8d2c4" shape-rendering="crispEdges"/>
+      <!-- Mug handle -->
+      <path d="M 12 7 L 15 7 L 15 13 L 12 13" fill="none" stroke="#d8d2c4" stroke-width="1.5"/>
+      <!-- Coffee brew -->
+      <rect x="2" y="5" width="8" height="2" fill="#4d3224"/>
+      <!-- Steam particles -->
+      <path d="M 3 2 Q 5 0 3 -3" stroke="#eae5d9" stroke-width="1" fill="none" class="steam-1"/>
+      <path d="M 8 2 Q 6 -1 8 -4" stroke="#eae5d9" stroke-width="1" fill="none" class="steam-2"/>
+    </g>
+
+    <!-- Sleeping Pixel Cat (Right desk corner) -->
+    <g class="cat" transform="translate(242, 172)">
+      <!-- Cat body -->
+      <ellipse cx="20" cy="14" rx="16" ry="10" fill="#ea8c72"/>
+      <!-- Cat head -->
+      <circle cx="9" cy="11" r="7" fill="#ea8c72"/>
+      <!-- Ears -->
+      <polygon points="5,6 9,2 9,7" fill="#ea8c72"/>
+      <polygon points="10,6 14,3 13,8" fill="#ea8c72"/>
+      <polygon points="6,6 8,4 8,6" fill="#f29e85"/>
+      <!-- Sleeping eye line -->
+      <line x1="6" y1="12" x2="10" y2="12" stroke="#4a251b" stroke-width="1"/>
+      <!-- Tail curled -->
+      <path d="M 34 16 Q 38 12 36 8" stroke="#ea8c72" stroke-width="3" fill="none"/>
+      <!-- Cozy Blanket patch -->
+      <rect x="12" y="16" width="18" height="6" fill="#9d8ec2" opacity="0.85" rx="1"/>
+    </g>
+
+    <!-- Subtle Label Tag -->
+    <rect x="10" y="218" width="310" height="16" fill="#121824" shape-rendering="crispEdges"/>
+    <text x="18" y="229" fill="#9d8ec2" class="font-pixel" font-size="8.5">ENV: LATE_NIGHT_STUDIO // COMMITS: CONTINUOUS</text>
+  </g>
+
+  <!-- Bottom Window Status Stripe -->
+  <line x1="6" y1="298" x2="870" y2="298" stroke="#1e2838" stroke-width="1"/>
+  <rect x="6" y="299" width="864" height="13" fill="#121722" shape-rendering="crispEdges"/>
+  <text x="16" y="309" fill="#5c6e88" class="font-pixel" font-size="8.5">STATUS: READY | REPO: GURUPRASAD-BHOSALE | PALETTE: SLATE_TEAL_PEACH_LAVENDER | MODE: BUILD</text>
+  <text x="760" y="309" fill="#4ba3a3" class="font-pixel" font-size="8.5">MEMORY: 64KB OK</text>
+</svg>
