@@ -1,14 +1,10 @@
 <div align="center">
   <img src="./assets/night-banner.png" width="100%" alt="Pixel-art night scene: a developer's desk overlooking a moonlit lake and distant city" />
-
   <br />
-
-  <samp>GURUPRASAD BHOSALE &nbsp; / &nbsp; AI + SOFTWARE SYSTEMS</samp>
-
+  <samp>GURUPRASAD BHOSALE / AI + SOFTWARE SYSTEMS</samp>
   <p>
     <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=14&duration=3200&pause=1000&color=8FB9B6&center=true&vCenter=true&width=650&lines=AI%2FML+%C2%B7+Computer+Vision+%C2%B7+Full+Stack;Building+systems+past+the+demo;Making+interfaces+and+agents+more+useful;Currently+debugging+something+interesting" alt="Rotating developer focus lines" />
   </p>
-
   <p>
     <a href="https://github.com/Guruprasad-Bhosale"><img src="https://img.shields.io/badge/GitHub-Guruprasad--Bhosale-172338?style=flat-square&logo=github&logoColor=c7d7e5" alt="GitHub profile" /></a>
     <img src="https://img.shields.io/badge/FOCUS-AI%20%2B%20SYSTEMS-23434a?style=flat-square&labelColor=172338&color=315f63" alt="Focus: AI and systems" />
@@ -18,79 +14,36 @@
 
 ---
 
-<table>
-  <tr>
-    <td width="62%" valign="top">
-      <h3><code>01 / about</code></h3>
-      I'm a B.Tech AI & ML student who builds across AI, computer vision, and full-stack engineering.
+## `01 / about`
 
-      I care about what happens <em>after the demo</em>: system design, failure cases, testing, and whether the thing is actually useful.
+I'm a B.Tech AI & ML student who builds across AI, computer vision, and full-stack engineering.
 
-      <ul>
-        <li>AI agents and practical AI/ML systems</li>
-        <li>Computer vision and human-computer interaction</li>
-        <li>Developer tools, debugging, and interface intelligence</li>
-      </ul>
-    </td>
-    <td width="38%" valign="top">
-      <h3><code>02 / current.log</code></h3>
-      <pre><code>mode: building
+I care about what happens *after the demo*: system design, failure cases, testing, and whether the thing is actually useful.
+
+- AI agents and practical AI/ML systems
+- Computer vision and human-computer interaction
+- Developer tools, debugging, and interface intelligence
+
+## `02 / current.log`
+
+```text
+mode: building
 interests:
   - agentic systems
   - computer vision
   - system design
 loop:
-  build -> test -> refine</code></pre>
-      <sub>Usually one tab away from a new idea.</sub>
-    </td>
-  </tr>
-</table>
+  build -> test -> refine
+```
+
+<sub>Usually one tab away from a new idea.</sub>
 
 ## `03 / selected projects`
 
 <table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/Guruprasad-Bhosale/RETRACE">RETRACE ↗</a></h3>
-      <sub>DEBUGGING / DEVELOPER TOOLS</sub>
-      <p>Autonomous regression investigation and context recovery, connecting reproducible failures with likely code changes.</p>
-      <code>Playwright</code> <code>AST</code> <code>Git diffs</code>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/Guruprasad-Bhosale/FixMyCode">FixMyUI ↗</a></h3>
-      <sub>VISUAL INTELLIGENCE</sub>
-      <p>AI-assisted UI diagnosis and experimentation, helping connect what looks wrong in an interface to actionable changes.</p>
-      <code>Next.js</code> <code>Playwright</code> <code>AI</code>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/Guruprasad-Bhosale/SIGNOVA">SIGNOVA ↗</a></h3>
-      <sub>COMPUTER VISION / RESEARCH</sub>
-      <p>Exploring continuous Indian Sign Language-to-English translation, temporal modeling, and a careful data pipeline.</p>
-      <code>MediaPipe</code> <code>Python</code> <code>Deep Learning</code>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/Guruprasad-Bhosale/KindDoor">KindDoor ↗</a></h3>
-      <sub>ACCESSIBILITY / AGENTIC AI</sub>
-      <p>An accessibility-focused front-door agent designed around visitor context and policy-aware access workflows.</p>
-      <code>Amazon Bedrock</code> <code>AWS</code> <code>MCP</code>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/Guruprasad-Bhosale/PayVia">PayVia ↗</a></h3>
-      <sub>AGENTIC COMMERCE</sub>
-      <p>Buyer and merchant agents negotiate price and terms before the payment is settled through PayPal.</p>
-      <code>Next.js</code> <code>Gemini</code> <code>PayPal</code>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/Guruprasad-Bhosale/VISIONCTRL">VISIONCTRL ↗</a></h3>
-      <sub>SPATIAL INTERACTION</sub>
-      <p>Camera-based hand interaction for desktop control, combining hand landmarks, gesture logic, and safer actions.</p>
-      <code>OpenCV</code> <code>MediaPipe</code> <code>Python</code>
-    </td>
-  </tr>
+<tr><td width="50%" valign="top"><h3><a href="https://github.com/Guruprasad-Bhosale/RETRACE">RETRACE ↗</a></h3><sub>DEBUGGING / DEVELOPER TOOLS</sub><p>Autonomous regression investigation and context recovery, connecting reproducible failures with likely code changes.</p><code>Playwright</code> <code>AST</code> <code>Git diffs</code></td><td width="50%" valign="top"><h3><a href="https://github.com/Guruprasad-Bhosale/FixMyCode">FixMyUI ↗</a></h3><sub>VISUAL INTELLIGENCE</sub><p>AI-assisted UI diagnosis and experimentation, helping connect what looks wrong in an interface to actionable changes.</p><code>Next.js</code> <code>Playwright</code> <code>AI</code></td></tr>
+<tr><td width="50%" valign="top"><h3><a href="https://github.com/Guruprasad-Bhosale/SIGNOVA">SIGNOVA ↗</a></h3><sub>COMPUTER VISION / RESEARCH</sub><p>Exploring continuous Indian Sign Language-to-English translation, temporal modeling, and a careful data pipeline.</p><code>MediaPipe</code> <code>Python</code> <code>Deep Learning</code></td><td width="50%" valign="top"><h3><a href="https://github.com/Guruprasad-Bhosale/KindDoor">KindDoor ↗</a></h3><sub>ACCESSIBILITY / AGENTIC AI</sub><p>An accessibility-focused front-door agent designed around visitor context and policy-aware access workflows.</p><code>Amazon Bedrock</code> <code>AWS</code> <code>MCP</code></td></tr>
+<tr><td width="50%" valign="top"><h3><a href="https://github.com/Guruprasad-Bhosale/PayVia">PayVia ↗</a></h3><sub>AGENTIC COMMERCE</sub><p>Buyer and merchant agents negotiate price and terms before payment is settled through PayPal.</p><code>Next.js</code> <code>Gemini</code> <code>PayPal</code></td><td width="50%" valign="top"><h3><a href="https://github.com/Guruprasad-Bhosale/VISIONCTRL">VISIONCTRL ↗</a></h3><sub>SPATIAL INTERACTION</sub><p>Camera-based hand interaction for desktop control, combining hand landmarks, gesture logic, and safer actions.</p><code>OpenCV</code> <code>MediaPipe</code> <code>Python</code></td></tr>
 </table>
 
 ## `04 / tools in the kit`
@@ -115,13 +68,17 @@ loop:
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Guruprasad-Bhosale&layout=compact&hide_border=true&bg_color=0B1424&title_color=8FB9B6&text_color=C7D1DC&langs_count=7" alt="Most-used repository languages" />
 </div>
 
-<div align="center">
-  <img src="./metrics.svg" width="100%" alt="Generated isometric contribution calendar and language metrics; created by the Metrics workflow" />
-</div>
+<details>
+  <summary><code>open contribution animation</code></summary>
+  <p>Run the <code>Generate contribution snake</code> workflow once before opening this.</p>
+  <img src="https://raw.githubusercontent.com/Guruprasad-Bhosale/Guruprasad-Bhosale/output/github-contribution-grid-snake.svg" width="100%" alt="Animated GitHub contribution snake" />
+</details>
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Guruprasad-Bhosale/Guruprasad-Bhosale/output/github-contribution-grid-snake.svg" width="100%" alt="Animated contribution snake; generated daily by GitHub Actions" />
-</div>
+<details>
+  <summary><code>open isometric metrics</code></summary>
+  <p>Optional: configure the <code>METRICS_TOKEN</code> secret and run the <code>Generate profile metrics</code> workflow first.</p>
+  <img src="./metrics.svg" width="100%" alt="Generated isometric contribution calendar and language metrics" />
+</details>
 
 ## `06 / elsewhere`
 
