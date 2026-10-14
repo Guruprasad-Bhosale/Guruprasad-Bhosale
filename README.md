@@ -1,85 +1,140 @@
-# GHOST//PROTOCOL
+<div align="center">
+  <img src="./assets/night-banner.png" width="100%" alt="Pixel-art night scene: a developer's desk overlooking a moonlit lake and distant city" />
 
-<div align="center">\n  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:09090b,45:4c1d95,100:7c3aed&height=220&section=header&text=GURU%20PRASAD&fontSize=54&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=AI%20ENGINEER%20%E2%80%A2%20FULL%20STACK%20%E2%80%A2%20BUILDER&descSize=14&descAlignY=57" width="100%" alt="Cyberpunk profile banner" />\n  <br/>\n  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=2800&pause=900&color=A78BFA&center=true&vCenter=true&width=650&lines=Building+things+that+shouldn't+work+(but+do).;AI%2FML+%7C+Computer+Vision+%7C+Full+Stack;Turning+coffee+into+commits+since+forever.;Currently+debugging+the+debugger." alt="Animated introduction" />\n</div>
+  <br />
 
-<p align="center">
-  <a href="https://github.com/Guruprasad-Bhosale"><img src="https://img.shields.io/badge/GitHub-Guruprasad--Bhosale-18181b?style=for-the-badge&logo=github&logoColor=white" /></a>
-  <img src="https://img.shields.io/badge/STATUS-BUILDING-7c3aed?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/BUGS-UNCONFIRMED-27272a?style=for-the-badge&logo=bugsnag&logoColor=a78bfa" />
-</p>
+  <samp>GURUPRASAD BHOSALE &nbsp; / &nbsp; AI + SOFTWARE SYSTEMS</samp>
 
-## `whoami` 👾
+  <p>
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=14&duration=3200&pause=1000&color=8FB9B6&center=true&vCenter=true&width=650&lines=AI%2FML+%C2%B7+Computer+Vision+%C2%B7+Full+Stack;Building+systems+past+the+demo;Making+interfaces+and+agents+more+useful;Currently+debugging+something+interesting" alt="Rotating developer focus lines" />
+  </p>
 
-```python
-class Guruprasad:
-    focus = ["AI/ML", "Computer Vision", "Full Stack", "Agentic AI"]
-    philosophy = "Build real things. Learn by breaking things."
-    current_objective = "Make ambitious ideas actually work."
-    weakness = "One more feature before the deadline."
-```
+  <p>
+    <a href="https://github.com/Guruprasad-Bhosale"><img src="https://img.shields.io/badge/GitHub-Guruprasad--Bhosale-172338?style=flat-square&logo=github&logoColor=c7d7e5" alt="GitHub profile" /></a>
+    <img src="https://img.shields.io/badge/FOCUS-AI%20%2B%20SYSTEMS-23434a?style=flat-square&labelColor=172338&color=315f63" alt="Focus: AI and systems" />
+    <a href="https://www.linkedin.com/in/guruprasad-bhosale/"><img src="https://img.shields.io/badge/LinkedIn-connect-172338?style=flat-square&logo=linkedin&logoColor=8fb9b6" alt="LinkedIn" /></a>
+  </p>
+</div>
 
-I'm a B.Tech AI & ML student who enjoys building systems that go beyond basic demos — from intelligent interfaces and computer vision to autonomous debugging and AI agents.
+---
 
-- 🧠 Exploring AI/ML, computer vision and agentic systems
-- 🛠️ Building practical projects across the full stack
-- 🔬 Interested in systems that are measurable, testable and useful
-- 🌌 Usually somewhere between a new idea and a suspiciously large TODO list
+<table>
+  <tr>
+    <td width="62%" valign="top">
+      <h3><code>01 / about</code></h3>
+      I'm a B.Tech AI & ML student who builds across AI, computer vision, and full-stack engineering.
 
-## `./featured-projects` 🚀
+      I care about what happens <em>after the demo</em>: system design, failure cases, testing, and whether the thing is actually useful.
 
-| Project | What it does |
-|:--|:--|
-| **RETRACE** | Autonomous regression investigation and debugging context recovery. |
-| **SIGNOVA** | Continuous Indian Sign Language to English translation research. |
-| **FixMyUI** | AI-assisted UI diagnostics, visual debugging and code repair. |
-| **KindDoor** | An accessibility-focused AI front-door agent with security-aware access policies. |
-| **PayVia** | AI agents negotiate payment terms before PayPal settlement. |
-| **VISIONCTRL** | Camera-based spatial interaction and hand-controlled desktop experiences. |
+      <ul>
+        <li>AI agents and practical AI/ML systems</li>
+        <li>Computer vision and human-computer interaction</li>
+        <li>Developer tools, debugging, and interface intelligence</li>
+      </ul>
+    </td>
+    <td width="38%" valign="top">
+      <h3><code>02 / current.log</code></h3>
+      <pre><code>mode: building
+interests:
+  - agentic systems
+  - computer vision
+  - system design
+loop:
+  build -> test -> refine</code></pre>
+      <sub>Usually one tab away from a new idea.</sub>
+    </td>
+  </tr>
+</table>
 
-> Explore my repositories for implementation details, experiments and source code.
+## `03 / selected projects`
 
-<p align="center">
-  <a href="https://github.com/Guruprasad-Bhosale?tab=repositories"><img src="https://img.shields.io/badge/EXPLORE-ALL%20REPOSITORIES-6d28d9?style=for-the-badge&logo=github" /></a>
-</p>
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Guruprasad-Bhosale/RETRACE">RETRACE ↗</a></h3>
+      <sub>DEBUGGING / DEVELOPER TOOLS</sub>
+      <p>Autonomous regression investigation and context recovery, connecting reproducible failures with likely code changes.</p>
+      <code>Playwright</code> <code>AST</code> <code>Git diffs</code>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Guruprasad-Bhosale/FixMyCode">FixMyUI ↗</a></h3>
+      <sub>VISUAL INTELLIGENCE</sub>
+      <p>AI-assisted UI diagnosis and experimentation, helping connect what looks wrong in an interface to actionable changes.</p>
+      <code>Next.js</code> <code>Playwright</code> <code>AI</code>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Guruprasad-Bhosale/SIGNOVA">SIGNOVA ↗</a></h3>
+      <sub>COMPUTER VISION / RESEARCH</sub>
+      <p>Exploring continuous Indian Sign Language-to-English translation, temporal modeling, and a careful data pipeline.</p>
+      <code>MediaPipe</code> <code>Python</code> <code>Deep Learning</code>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Guruprasad-Bhosale/KindDoor">KindDoor ↗</a></h3>
+      <sub>ACCESSIBILITY / AGENTIC AI</sub>
+      <p>An accessibility-focused front-door agent designed around visitor context and policy-aware access workflows.</p>
+      <code>Amazon Bedrock</code> <code>AWS</code> <code>MCP</code>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Guruprasad-Bhosale/PayVia">PayVia ↗</a></h3>
+      <sub>AGENTIC COMMERCE</sub>
+      <p>Buyer and merchant agents negotiate price and terms before the payment is settled through PayPal.</p>
+      <code>Next.js</code> <code>Gemini</code> <code>PayPal</code>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Guruprasad-Bhosale/VISIONCTRL">VISIONCTRL ↗</a></h3>
+      <sub>SPATIAL INTERACTION</sub>
+      <p>Camera-based hand interaction for desktop control, combining hand landmarks, gesture logic, and safer actions.</p>
+      <code>OpenCV</code> <code>MediaPipe</code> <code>Python</code>
+    </td>
+  </tr>
+</table>
 
-## `tech.exe` ⚙️
+## `04 / tools in the kit`
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,ts,js,react,nextjs,nodejs,express,fastapi,flask,opencv,pytorch,tensorflow,mongodb,postgres,redis,docker,git,github,linux&theme=dark&perline=9" alt="Technology stack" />
-</p>
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=python,ts,js,react,nextjs,nodejs,express,fastapi,opencv,pytorch,tensorflow,mongodb,postgres,redis,docker,git,github,linux&theme=dark&perline=9" alt="Python, TypeScript, JavaScript, React, Next.js, Node.js, Express, FastAPI, OpenCV, PyTorch, TensorFlow, MongoDB, PostgreSQL, Redis, Docker, Git, GitHub, and Linux" />
+</div>
 
-## `github.stats()` 📡
+<details>
+  <summary><code>more about the stack</code></summary>
+  <p><strong>Frontend:</strong> React, Next.js, TypeScript, Tailwind CSS</p>
+  <p><strong>Backend:</strong> Node.js, Express, FastAPI, REST APIs, WebSockets</p>
+  <p><strong>Data:</strong> MongoDB, PostgreSQL, Redis</p>
+  <p><strong>AI / vision:</strong> Python, OpenCV, MediaPipe, PyTorch, TensorFlow</p>
+  <p><strong>Workflow:</strong> Git, GitHub Actions, Docker, Playwright</p>
+</details>
 
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Guruprasad-Bhosale&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=a78bfa&icon_color=8b5cf6&text_color=c9d1d9" alt="GitHub statistics" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Guruprasad-Bhosale&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=a78bfa&text_color=c9d1d9&langs_count=8" alt="Most used languages" />
-</p>
+## `05 / github telemetry`
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=Guruprasad-Bhosale&theme=tokyonight&hide_border=true&background=0D1117&ring=8B5CF6&fire=A78BFA&currStreakLabel=A78BFA" width="75%" alt="GitHub contribution streak" />
-</p>
+<div align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Guruprasad-Bhosale&show_icons=true&hide_border=true&bg_color=0B1424&title_color=8FB9B6&text_color=C7D1DC&icon_color=D8A17E&rank_icon=github&include_all_commits=true" alt="Live GitHub statistics" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Guruprasad-Bhosale&layout=compact&hide_border=true&bg_color=0B1424&title_color=8FB9B6&text_color=C7D1DC&langs_count=7" alt="Most-used repository languages" />
+</div>
 
-## `contribution.exe` 🐍
+<div align="center">
+  <img src="./metrics.svg" width="100%" alt="Generated isometric contribution calendar and language metrics; created by the Metrics workflow" />
+</div>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Guruprasad-Bhosale/Guruprasad-Bhosale/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Animated contribution snake; enable the GitHub Actions workflow to generate this image" />
-</p>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Guruprasad-Bhosale/Guruprasad-Bhosale/output/github-contribution-grid-snake.svg" width="100%" alt="Animated contribution snake; generated daily by GitHub Actions" />
+</div>
 
-## `system.log` 🖥️
+## `06 / elsewhere`
 
-```text
-[INFO] Booting developer environment...
-[OK]   Curiosity initialized
-[OK]   Overengineering module loaded
-[OK]   Coffee dependency resolved
-[WARN] Scope creep detected
-[INFO] Shipping anyway.
-```
+<div align="center">
+  <a href="https://github.com/Guruprasad-Bhosale?tab=repositories">repositories</a>
+  &nbsp; · &nbsp;
+  <a href="https://www.linkedin.com/in/guruprasad-bhosale/">linkedin</a>
+  &nbsp; · &nbsp;
+  <a href="https://github.com/Guruprasad-Bhosale?tab=stars">things I've starred</a>
+</div>
 
-<p align="center">
-  <i>"Stay curious. Build relentlessly. Touch grass occasionally."</i>
-  <br/><br/>
-  <img src="https://komarev.com/ghpvc/?username=Guruprasad-Bhosale&style=flat-square&color=7c3aed&label=PROFILE+VISITS" alt="Profile visits" />
-  <br/><br/>
-  <sub>Designed in the void · Powered by curiosity · Maintained by caffeine</sub>
-</p>
+<br />
+
+<div align="center">
+  <sub>night build // keep the signal, remove the noise</sub>
+</div>
